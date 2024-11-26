@@ -1,0 +1,85 @@
+/* 基本設定 */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+/* ヘッダー */
+header {
+    background-color: #6c63ff;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header p {
+    margin: 10px 0 0;
+    font-size: 1.2em;
+}
+
+/* メインコンテンツ */
+main {
+    padding: 20px;
+}
+
+.app {
+    display: flex;
+    align-items: center;
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.app-image {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.app-details {
+    padding: 20px;
+}
+
+.app-details h2 {
+    margin: 0 0 10px;
+    color: #6c63ff;
+}
+
+.app-details p {
+    margin: 0 0 15px;
+}
+
+.button {
+    display: inline-block;
+    text-decoration: none;
+    background: #6c63ff;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin-right: 10px;
+    font-size: 0.9em;
+}
+
+.button:hover {
+    background: #5753d6;
+}
+
+/* フッター */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+}
